@@ -129,9 +129,6 @@ h2 { margin-bottom: 32px; font-size: clamp(50px, 5.4vw, 80px); }
 .panel-label { color: var(--gold-light); font-size: 9px; letter-spacing: .2em; text-transform: uppercase; }
 .contact-panel h3 { margin: 0 0 8px; font-family: var(--serif); font-size: 36px; font-weight: 400; }
 .contact-panel > p:not(.panel-label):not(.contact-note) { color: rgba(255,255,255,.6); }
-.contact-divider { display: flex; align-items: center; gap: 12px; margin: 26px 0; color: rgba(255,255,255,.34); font-size: 10px; text-transform: uppercase; }
-.contact-divider::before, .contact-divider::after { content: ""; flex: 1; height: 1px; background: rgba(255,255,255,.13); }
-.email-link { display: block; font-family: var(--serif); font-size: 21px; text-align: center; }
 .contact-note { margin: 9px 0 0; color: rgba(255,255,255,.38); font-size: 10px; letter-spacing: .08em; text-align: center; text-transform: uppercase; }
 
 .site-footer { padding: 76px 0 28px; background: #070807; color: rgba(255,255,255,.63); }
@@ -210,7 +207,6 @@ h2 { margin-bottom: 32px; font-size: clamp(50px, 5.4vw, 80px); }
   .process-visual img { height: 390px; }
   .company-facts dl > div { grid-template-columns: 1fr; gap: 3px; }
   .contact-panel { padding: 28px 22px; }
-  .email-link { font-size: 18px; }
   .footer-grid { grid-template-columns: 1fr; gap: 46px; }
   .footer-bottom { flex-direction: column; }
   .whatsapp-float { right: 14px; bottom: 14px; width: 52px; height: 52px; padding: 0; justify-content: center; }
